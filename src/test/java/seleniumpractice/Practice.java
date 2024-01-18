@@ -35,9 +35,6 @@ public class Practice {
             Thread.sleep(2000);
             email.clear();
 
-
-
-
         }
     }
 
