@@ -81,19 +81,6 @@ public class DemoFaceBook {
 
         driver.stop();
 
-
-
-
-
-
-
-
-
-
-
-
     }
-
-
 
 }
