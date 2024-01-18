@@ -25,15 +25,15 @@ public class CssLocators {
         driver.findElement(By.linkText("Create new account")).click();
         Thread.sleep(4000);
 
-     //   driver.findElement(By.cssSelector("a[href='/about/privacy/update']")).click();
+       driver.findElement(By.cssSelector("a[href='/about/privacy/update']")).click();
 
         // Combining attribute id and herf
-     //   driver.findElement(By.cssSelector("a#privacy-link[href='/about/privacy/update']")).click();
+       driver.findElement(By.cssSelector("a#privacy-link[href='/about/privacy/update']")).click();
 
 
         driver.findElement(By.cssSelector("input[class='inputtext _58mg _5dba _2ph-']")).sendKeys("Sankettttttt");            // Start with (^)
 
-     //   driver.findElement(By.cssSelector("input[name$='email__']")).sendKeys("Sanket@gmail.com");     //Ends with ($)
+       driver.findElement(By.cssSelector("input[name$='email__']")).sendKeys("Sanket@gmail.com");     //Ends with ($)
 
 
         driver.findElement(By.cssSelector("input[class*='58mg _5dba _']")).clear();                              //Middle with (*)
@@ -41,14 +41,6 @@ public class CssLocators {
 
 
         driver.findElement(By.cssSelector("input[id^='u_2_g_']")).sendKeys("sanket@gmail.com");
-
-
-
-
-
-
-
-
 
     }
 
