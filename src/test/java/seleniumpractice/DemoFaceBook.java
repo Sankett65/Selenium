@@ -41,47 +41,47 @@ public class DemoFaceBook {
         driver.findElement(By.name("login")).click();
         sc();
 //            driver.close();
+        // To create a Account
 
-//        driver.findElement(By.linkText("Create new account")).click();
-//        Thread.sleep(3000);
-//
-////        driver.findElement(By.xpath("//img[@class='_8idr img']")).click();
-////        driver.close();
-//
-//        driver.findElement(By.name("firstname")).sendKeys("Happy");
-//        sc();
-//        Thread.sleep(1000);
-//        driver.findElement(By.name("lastname")).sendKeys("Jadhav");
-//        sc();
-//        Thread.sleep(1000);
-//        driver.findElement(By.name("reg_email__")).sendKeys("8451098400");
-//        sc();
-//        Thread.sleep(1000);
-//        driver.findElement(By.id("password_step_input")).sendKeys("Happy12345");
-//        sc();
-//        Thread.sleep(1000);
-//        driver.findElement(By.name("birthday_day")).sendKeys("3");
-//        sc();
-//        Thread.sleep(1000);
-//        driver.findElement(By.name("birthday_month")).sendKeys("Sep");
-//        sc();
-//        Thread.sleep(1000);
-//
-//        WebElement element=driver.findElement(By.id("year"));
-//        element.sendKeys("2001");
-//        Thread.sleep(1000);
-//
-//        WebElement element1=driver.findElement(By.xpath("//label[text()='Male']"));
-//        element1.click();
-//        sc();
-//
-//        Thread.sleep(1000);
-//        driver.findElement(By.name("websubmit")).click();
-//        Thread.sleep(9000);
-//        driver.findElement(By.linkText("No, Create New Account")).click();
-//        Thread.sleep(5000);
-//
-//
+       driver.findElement(By.linkText("Create new account")).click();
+       Thread.sleep(3000);
+
+       driver.findElement(By.name("firstname")).sendKeys("Happy");
+       sc();
+       Thread.sleep(1000);
+       driver.findElement(By.name("lastname")).sendKeys("Jadhav");
+       sc();
+       Thread.sleep(1000);
+       driver.findElement(By.name("reg_email__")).sendKeys("8451098400");
+       sc();
+       Thread.sleep(1000);
+       driver.findElement(By.id("password_step_input")).sendKeys("Happy12345");
+       sc();
+       Thread.sleep(1000);
+       driver.findElement(By.name("birthday_day")).sendKeys("3");
+       sc();
+       Thread.sleep(1000);
+       driver.findElement(By.name("birthday_month")).sendKeys("Sep");
+       sc();
+       Thread.sleep(1000);
+
+       WebElement element=driver.findElement(By.id("year"));
+       element.sendKeys("2001");
+       Thread.sleep(1000);
+
+       WebElement element1=driver.findElement(By.xpath("//label[text()='Male']"));
+       element1.click();
+       sc();
+
+       Thread.sleep(1000);
+       driver.findElement(By.name("websubmit")).click();
+       Thread.sleep(9000);
+       driver.findElement(By.linkText("No, Create New Account")).click();
+       Thread.sleep(5000);
+
+        driver.stop();
+
+
 
 
 
