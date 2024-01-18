@@ -31,13 +31,6 @@ public class SelectClassForDropdown {
 
         select.selectByVisibleText("3");
 
-
-
-
-
-
-
-
     }
 
 }
